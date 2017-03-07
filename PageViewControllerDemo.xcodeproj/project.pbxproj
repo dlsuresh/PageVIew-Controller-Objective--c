@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		F6AC67591E55A5B40003F25B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AC67581E55A5B40003F25B /* main.m */; };
 		F6AC675C1E55A5B40003F25B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AC675B1E55A5B40003F25B /* AppDelegate.m */; };
-		F6AC675F1E55A5B40003F25B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AC675E1E55A5B40003F25B /* ViewController.m */; };
 		F6AC67621E55A5B40003F25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AC67601E55A5B40003F25B /* Main.storyboard */; };
 		F6AC67641E55A5B40003F25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AC67631E55A5B40003F25B /* Assets.xcassets */; };
 		F6AC67671E55A5B40003F25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AC67651E55A5B40003F25B /* LaunchScreen.storyboard */; };
 		F6AC67721E55A5B40003F25B /* PageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AC67711E55A5B40003F25B /* PageViewControllerDemoTests.m */; };
 		F6AC677D1E55A5B40003F25B /* PageViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AC677C1E55A5B40003F25B /* PageViewControllerDemoUITests.m */; };
+		F6AC678C1E55A6AD0003F25B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AC678B1E55A6AD0003F25B /* RootViewController.m */; };
+		F6AC678F1E55A6FB0003F25B /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AC678E1E55A6FB0003F25B /* PageContentViewController.m */; };
+		F6AC67931E55AC9B0003F25B /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6AC67901E55AC9B0003F25B /* image1.jpg */; };
+		F6AC67941E55AC9B0003F25B /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6AC67911E55AC9B0003F25B /* image2.jpg */; };
+		F6AC67951E55AC9B0003F25B /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AC67921E55AC9B0003F25B /* image3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		F6AC67581E55A5B40003F25B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6AC675A1E55A5B40003F25B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6AC675B1E55A5B40003F25B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F6AC675D1E55A5B40003F25B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F6AC675E1E55A5B40003F25B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F6AC67611E55A5B40003F25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6AC67631E55A5B40003F25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6AC67661E55A5B40003F25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,13 @@
 		F6AC67781E55A5B40003F25B /* PageViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AC677C1E55A5B40003F25B /* PageViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewControllerDemoUITests.m; sourceTree = "<group>"; };
 		F6AC677E1E55A5B40003F25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AC678A1E55A6AD0003F25B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F6AC678B1E55A6AD0003F25B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F6AC678D1E55A6FB0003F25B /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		F6AC678E1E55A6FB0003F25B /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		F6AC67901E55AC9B0003F25B /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		F6AC67911E55AC9B0003F25B /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		F6AC67921E55AC9B0003F25B /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +112,17 @@
 			children = (
 				F6AC675A1E55A5B40003F25B /* AppDelegate.h */,
 				F6AC675B1E55A5B40003F25B /* AppDelegate.m */,
-				F6AC675D1E55A5B40003F25B /* ViewController.h */,
-				F6AC675E1E55A5B40003F25B /* ViewController.m */,
+				F6AC678A1E55A6AD0003F25B /* RootViewController.h */,
+				F6AC678B1E55A6AD0003F25B /* RootViewController.m */,
+				F6AC678D1E55A6FB0003F25B /* PageContentViewController.h */,
+				F6AC678E1E55A6FB0003F25B /* PageContentViewController.m */,
 				F6AC67601E55A5B40003F25B /* Main.storyboard */,
 				F6AC67631E55A5B40003F25B /* Assets.xcassets */,
 				F6AC67651E55A5B40003F25B /* LaunchScreen.storyboard */,
 				F6AC67681E55A5B40003F25B /* Info.plist */,
+				F6AC67901E55AC9B0003F25B /* image1.jpg */,
+				F6AC67911E55AC9B0003F25B /* image2.jpg */,
+				F6AC67921E55AC9B0003F25B /* image3.png */,
 				F6AC67571E55A5B40003F25B /* Supporting Files */,
 			);
 			path = PageViewControllerDemo;
@@ -247,6 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6AC67671E55A5B40003F25B /* LaunchScreen.storyboard in Resources */,
+				F6AC67951E55AC9B0003F25B /* image3.png in Resources */,
+				F6AC67941E55AC9B0003F25B /* image2.jpg in Resources */,
+				F6AC67931E55AC9B0003F25B /* image1.jpg in Resources */,
 				F6AC67641E55A5B40003F25B /* Assets.xcassets in Resources */,
 				F6AC67621E55A5B40003F25B /* Main.storyboard in Resources */,
 			);
@@ -273,9 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6AC675F1E55A5B40003F25B /* ViewController.m in Sources */,
 				F6AC675C1E55A5B40003F25B /* AppDelegate.m in Sources */,
+				F6AC678F1E55A6FB0003F25B /* PageContentViewController.m in Sources */,
 				F6AC67591E55A5B40003F25B /* main.m in Sources */,
+				F6AC678C1E55A6AD0003F25B /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
